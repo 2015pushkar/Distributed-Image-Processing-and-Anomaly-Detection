@@ -1,0 +1,256 @@
+name: "dataproc-startup-script"
+type: INIT_ACTION
+state: DONE
+start_time {
+  seconds: 1745777242
+  nanos: 724000000
+}
+end_time {
+  seconds: 1745777267
+  nanos: 619000000
+}
+
+name: "earlyoom"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 547972136
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 776238818
+  }
+}
+
+name: "fluentbit-ucp"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 517947150
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 785462595
+  }
+}
+
+name: "hdfs"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 540013516
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 810227847
+  }
+}
+
+name: "hive-metastore"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 526593700
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 31916020
+  }
+}
+
+name: "hive-server2"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 536431590
+  }
+  end_time {
+    seconds: 1745777265
+    nanos: 98558988
+  }
+}
+
+name: "mapreduce"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 530436405
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 614736227
+  }
+}
+
+name: "miniconda3"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 522668242
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 935141830
+  }
+}
+
+name: "mysql"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 511296146
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 561600515
+  }
+}
+
+name: "npd"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 535962354
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 790613842
+  }
+}
+
+name: "otel-ucp"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 521181141
+  }
+  end_time {
+    seconds: 1745777266
+    nanos: 789776537
+  }
+}
+
+name: "pig"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 516662718
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 546522690
+  }
+}
+
+name: "spark"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 518003061
+  }
+  end_time {
+    seconds: 1745777265
+    nanos: 155904337
+  }
+}
+
+name: "tez"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 519827212
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 543884780
+  }
+}
+
+name: "yarn"
+type: COMPONENT
+phase_stats {
+  phase_name: "activate"
+  start_time {
+    seconds: 1745777264
+    nanos: 528265959
+  }
+  end_time {
+    seconds: 1745777264
+    nanos: 916579611
+  }
+}
+
+name: "systemd-networkd-wait-online.service"
+type: SYSTEMD_SERVICE
+state: DONE
+start_time {
+  seconds: 1745777233
+  nanos: 924169000
+}
+end_time {
+  seconds: 1745777235
+  nanos: 842200000
+}
+
+name: "systemd-remount-fs.service"
+type: SYSTEMD_SERVICE
+state: DONE
+start_time {
+  seconds: 1745777233
+  nanos: 264839000
+}
+end_time {
+  seconds: 1745777233
+  nanos: 464352000
+}
+
+name: "google-guest-agent.service"
+type: SYSTEMD_SERVICE
+state: DONE
+start_time {
+  seconds: 1745777236
+  nanos: 144623000
+}
+end_time {
+  seconds: 1745777238
+  nanos: 455347000
+}
+
+name: "local-fs.target"
+type: SYSTEMD_SERVICE
+state: DONE
+start_time {
+  seconds: 1745777234
+  nanos: 232096000
+}
+end_time {
+  seconds: 1745777234
+  nanos: 232096000
+}
+
