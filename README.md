@@ -107,6 +107,3 @@ gs://sample/ → Spark driver → repartition(N) →
 - Zackary Amo   
 - Alexander Li   
  
-## 📄 License 
- 
-This project is licensed under the MIT License.
