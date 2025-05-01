@@ -82,8 +82,8 @@ A scalable PySpark pipeline for processing large-scale retinal image datasets (e
 - **Clusters tested**: 4, 8, and 15 workers   
 - **Observation**: Near-linear speed-up up to ~15 workers; plateaus thereafter (Amdahl's Law). 
  
-![Runtime vs Workers](graphs/runtime_vs_workers.png)   
-![Throughput Breakdown](graphs/throughput_stages.png)   
+![Runtime vs Workers](performance_result/job_time_vs_workers.png)   
+![Throughput Breakdown](performance_result/job_time_vs_data.png)   
  
 ## 🏗️ Architecture Overview 
  
