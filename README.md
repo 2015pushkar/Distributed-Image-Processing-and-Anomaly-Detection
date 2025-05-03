@@ -1,6 +1,9 @@
 # 🚀 Distributed Retinal Image Processing with Apache Spark on Google Cloud Dataproc 
  
 A scalable PySpark pipeline for processing large-scale retinal image datasets (e.g., EyePACS) in parallel. Each worker applies OpenCV filters (CLAHE, adaptive thresholding, morphology) per image, batches results into TAR archives (256 MiB chunks), and streams them back to Cloud Storage with resumable uploads. 
+
+![PARALLEL IMAGE-PROCESSING PIPELINE​](architecture diagram.png)   
+![IMAGE-EXTRACTION PIPELINE​](image_extraction_pipeline.png)  
  
 ## 🔍 Project Structure 
  
